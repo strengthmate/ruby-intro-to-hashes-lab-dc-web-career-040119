@@ -32,10 +32,10 @@ end
 def monopoly_with_third_tier
 	#copy and paste the monopoly hash you built in the previous method. We're going to add stuff to it here!
 	
-	         :four_pieces_owned => 200,
-         :one_piece_owned => 25,
-         :three_pieces_owned => 100,
-         :two_pieces_owned => 50
+	       #  :four_pieces_owned => 200,
+        # :one_piece_owned => 25,
+        # :three_pieces_owned => 100,
+        # :two_pieces_owned => 50
 
 end
 
