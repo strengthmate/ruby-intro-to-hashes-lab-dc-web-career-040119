@@ -32,7 +32,7 @@ def monopoly_with_third_tier
         :pennsylvania_railroad => {},
 	       :reading_railroad => {},
         :shortline => {}
-	         :four_pieces_owned => 200,
+	      :four_pieces_owned => 200,
         :one_piece_owned => 25,
         :three_pieces_owned => 100,
         :two_pieces_owned => 50
