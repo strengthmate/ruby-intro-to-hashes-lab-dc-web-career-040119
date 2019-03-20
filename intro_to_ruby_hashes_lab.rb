@@ -15,11 +15,9 @@ def monopoly
          
        }
        :names => {
-         
        } 
-	  
-	  
-	}
+    }
+  }
 	
 end
 
