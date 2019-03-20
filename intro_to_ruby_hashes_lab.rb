@@ -24,19 +24,20 @@ def monopoly_with_third_tier
   	monopoly = {
 	  :railroads => {
 	     :pieces => 4,
-	     :names => {},
-       :rent_in_dollars => {}
+	     :names => {
+	        :b_and_o_railroad => {},
+          :pennsylvania_railroad => {},
+	        :reading_railroad => {},
+          :shortline => {}
+	     },
+       :rent_in_dollars => {
+          :four_pieces_owned => 200,
+          :one_piece_owned => 25,
+          :three_pieces_owned => 100,
+          :two_pieces_owned => 50
+       }
     }
   }
-        :b_and_o_railroad => {},
-        :pennsylvania_railroad => {},
-	       :reading_railroad => {},
-        :shortline => {}
-	      :four_pieces_owned => 200,
-        :one_piece_owned => 25,
-        :three_pieces_owned => 100,
-        :two_pieces_owned => 50
-
 end
 
 def monopoly_with_fourth_tier
