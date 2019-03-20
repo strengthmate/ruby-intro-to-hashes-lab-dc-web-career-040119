@@ -1,14 +1,13 @@
 def new_hash
-
+  my_hash = {}
 end
 
 def actor
-
+  hash = { "actor" => "Dwayne The Rock Johnson"}
 end
 
 def monopoly
-	monopoly = {}
-
+	monopoly = {:railroads => {} }
 end
 
 def monopoly_with_second_tier
